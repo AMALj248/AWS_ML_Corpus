@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:11:26.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="9nAYLQG6o2ESmnJ7Ihxw" version="21.7.2" type="github">
+  <diagram name="Page-1" id="N9Yp-3Ulmj6O2cw9K3d_">
+    <mxGraphModel dx="1774" dy="1595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-1" value="S3" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="90" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-2" value="Fully managed, Object Storage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-1">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-3" value="11 9&#39;s of availibility, Multiple AZ&#39;s" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-1">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-4" value="Organised in buckets, One object can be upto 5TB" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-1">
+          <mxGeometry y="90" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-5" value="Organised in buckets, One object can be upto 5TB" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-1">
+          <mxGeometry y="140" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZpsd5Ju-kHtHLW7SSqZ-10" target="kZpsd5Ju-kHtHLW7SSqZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://zesty.co/wp-content/uploads/2022/04/S3_Cost_1.png;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="100" width="442.66" height="211" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZpsd5Ju-kHtHLW7SSqZ-13" target="kZpsd5Ju-kHtHLW7SSqZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-13" value="Lifecycle Policies" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-60" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-14" value="Algorithmic changes to the storage class" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-13">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-15" value="Intelligently changes to reduce cost" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-13">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-16" value="Cost is charged during or after migration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-13">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kZpsd5Ju-kHtHLW7SSqZ-19" target="kZpsd5Ju-kHtHLW7SSqZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-19" value="Access Management of S3" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="110" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-20" value="Use IAM Roles and Policies to give the required access and permission to users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-19">
+          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-21" value="Use policies to give permission to services and users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-19">
+          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-22" value="Use access points to create network endpoints for access at scales&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-19">
+          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-25" value="Use ACL to give access at a granular level for individual buckets" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-19">
+          <mxGeometry y="120" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZpsd5Ju-kHtHLW7SSqZ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-26" value="Logging/Trails" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-27" value="Cloudwatch to watch the overall health and billing alerts of S3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-26">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-28" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-26">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kZpsd5Ju-kHtHLW7SSqZ-29" value="CloudTrail to watch logs of things happening in S3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kZpsd5Ju-kHtHLW7SSqZ-26">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
